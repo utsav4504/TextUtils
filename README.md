@@ -1,70 +1,53 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Text Utility App
 
-## Available Scripts
+## Description
+The Text Utility App is a simple web application built using React and Bootstrap. It provides various functionalities for text manipulation, including converting text to uppercase or lowercase, removing extra spaces, copying text to the clipboard, downloading text files, and speaking text aloud. The app offers a user-friendly interface that makes it easy to manage and manipulate text.
 
-In the project directory, you can run:
+## Features
+- Convert text to uppercase
+- Convert text to lowercase
+- Remove extra spaces from the text
+- Copy text to the clipboard
+- Download text as a `.txt` file
+- Clear the text area
+- Speak the text aloud using the Web Speech API
+- Display a summary of the text, including word and character count
 
-### `npm start`
+## Technologies Used
+- **Frontend:** React.js, Bootstrap
+- **Web APIs:** Web Speech API
+- **State Management:** React Hooks (useState)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/utsav4504/TextUtils.git
+   cd TextUtils
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the application:
+   ```bash
+   npm start
+   ```
+4. Open your web browser and navigate to `http://localhost:3000`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
+1. Enter text in the provided text area.
+2. Use the buttons to manipulate the text as needed:
+   - **Convert to Uppercase**: Changes all text to uppercase.
+   - **Convert to Lowercase**: Changes all text to lowercase.
+   - **Remove Extra Spaces**: Eliminates any extra spaces from the text.
+   - **Copy to Clipboard**: Copies the text to the clipboard for easy pasting.
+   - **Download Text**: Downloads the current text as a `.txt` file.
+   - **Clear**: Clears the text area.
+   - **Speak**: Reads the text aloud using the browser's speech synthesis feature.
 
-### `npm test`
+## GitHub Repository
+You can find the source code and additional details at [Text Utility App GitHub Repository](https://github.com/utsav4504/TextUtils).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+If you have any questions or suggestions, feel free to contact me at [utsav45.jn@gmail.com](mailto:utsav45.jn@gmail.com).
