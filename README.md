@@ -1,8 +1,8 @@
 
-# Text Utility App
+# Text Utils
 
 ## Description
-The Text Utility App is a simple web application built using React and Bootstrap. It provides various functionalities for text manipulation, including converting text to uppercase or lowercase, removing extra spaces, copying text to the clipboard, downloading text files, and speaking text aloud. The app offers a user-friendly interface that makes it easy to manage and manipulate text.
+The Text Utils is a simple web application built using React and Bootstrap. It provides various functionalities for text manipulation, including converting text to uppercase or lowercase, removing extra spaces, copying text to the clipboard, downloading text files, and speaking text aloud. The app offers a user-friendly interface that makes it easy to manage and manipulate text.
 
 ## Features
 - Convert text to uppercase
